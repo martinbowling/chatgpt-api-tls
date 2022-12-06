@@ -44,7 +44,7 @@ curl -XGET http://localhost:31337/chat?q=Write%20a%20python%20program%20to%20rev
 
 # Credit
 
-* Original FauxAPI was inspired by[Daniel Gross's whatsapp gpt](https://github.com/danielgross/whatsapp-gpt) 
+* Original FauxAPI was inspired by [Daniel Gross's whatsapp gpt](https://github.com/danielgross/whatsapp-gpt) 
 * [OpenAI](https://openai.com/) for creating the ChatGPT API
 * [FlorianREGAZ](https://github.com/FlorianREGAZ) for the TLS Client
 * [rawandahmad698](https://github.com/rawandahmad698/PyChatGPT) for original CLI TLS ChatGPT Client
