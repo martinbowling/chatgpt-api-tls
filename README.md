@@ -1,6 +1,5 @@
 # ChatGPT api
 
-* It uses playwright and chromium to open browser and parse html.
 * It is an unoffical api for development purpose only.
 
 
@@ -24,11 +23,7 @@ source pyenv/bin/activate
 pip install -r requirements.txt
 ```
 
-* If you are installing playwright for the first time, it will ask you to run this command for one time only.
 
-```
-playwright install
-```
 
 * Now run the server
 
@@ -36,7 +31,7 @@ playwright install
 python server.py
 ```
 
-* The server runs at port `5001`. If you want to change, you can change it in server.py
+* The server runs at port `31337`. If you want to change, you can change it in server.py
 
 
 # Api Documentation
@@ -44,9 +39,12 @@ python server.py
 * There is a single end point only. It is available at `/chat`
 
 ```sh
-curl -XGET http://localhost:5001/chat?q=Write%20a%20python%20program%20to%20reverse%20a%20list
+curl -XGET http://localhost:31337/chat?q=Write%20a%20python%20program%20to%20reverse%20a%20list
 ```
 
 # Credit
 
-* All the credit for this script goes to [Daniel Gross's whatsapp gpt](https://github.com/danielgross/whatsapp-gpt) package. I have just taken the script as an individual file and added documentation for how to install and run it.
+* Original FauxAPI was inspired by[Daniel Gross's whatsapp gpt](https://github.com/danielgross/whatsapp-gpt) 
+* [OpenAI](https://openai.com/) for creating the ChatGPT API
+* [FlorianREGAZ](https://github.com/FlorianREGAZ) for the TLS Client
+* [rawandahmad698](https://github.com/rawandahmad698/PyChatGPT) for original CLI TLS ChatGPT Client
