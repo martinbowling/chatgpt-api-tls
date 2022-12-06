@@ -1,7 +1,7 @@
-# ChatGPT api
 
-* It is an unoffical api for development purpose only.
+# Disclaimer
 
+* UNOFFICIAL API. This project is not affiliated with OpenAI in anyway. It is not an official product. This is a personal project and to be used for development purpose only.
 
 # How to install
 
