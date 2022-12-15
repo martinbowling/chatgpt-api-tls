@@ -1,3 +1,7 @@
+# Dec 14th
+
+This code is no longer working due to countermeasures that Open AI has introduced.
+
 
 # Disclaimer
 
